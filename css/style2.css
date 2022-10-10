@@ -1,0 +1,131 @@
+/* header */
+header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+header span {
+    color:#5f5f5f;
+}
+
+h1, h2{
+    color: #16213E;
+    font-family: "Trirong", serif;
+}
+/* End header */
+/* Navigation */
+
+nav{
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+li{
+    float: left;
+ }
+
+ li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+ }
+
+ li a:hover {
+    background-color: #16213E;
+    color: aliceblue;
+ }
+ /* End Navigation */
+
+ /* Contain */
+ #contant {
+    height: auto;
+ }
+ .flex-direction {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ .button {
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+  }
+
+  .button1 {
+    border: none;
+    background-color: #16213E; 
+    color: white; 
+  }
+  
+  .button1:hover {
+    background-color: #2a3f76;
+    color: white;
+  }
+.flex-direction img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.description{
+    text-align: center;
+}
+
+ .sidebar{
+    grid-row: 1;
+    width: auto;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .main {
+    width: auto;
+    background-color: #16213E;
+    grid-row: 1;
+    grid-column: 2/6;
+ }
+ /* End Contant */
+  /* Footer */
+  footer{
+    width: 100%;
+    background-color: #16213E;
+    text-align: center;
+    padding: 3px;
+ }
+ .social-media {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ footer h1,p{
+    color: aliceblue;
+ }
+ footer img {
+    width:50px;
+    height: 50px;
+    margin: 5px;;
+ }
+ /* End Footer */
